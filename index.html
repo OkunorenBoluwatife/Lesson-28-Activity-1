@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript String Methods</h2>
+
+    <p>Search a string for "fine", and display the position of the match and replace
+        the word "fine" by "beautiful" and display</p>
+    
+    <p id="search_result"></p>
+    <p id="replace_result"></p>
+
+    <script>
+        var str = "Good day...How do you do this fine morning?";
+        var search_postion = str.search("fine");
+        var txt = str.replace("fine", "beautiful");
+
+        document.getElementById("search_result").innerHTML = search_postion;
+        document.getElementById("replace_result").innerHTML = txt;
+    </script>
+
+</body>
+
+</html>
